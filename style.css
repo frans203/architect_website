@@ -175,7 +175,7 @@ html {
 }
 .banner {
   position: absolute;
-  top: 30%;
+  top: 25%;
   left: 10%;
 }
 .section-1-heading {
@@ -768,6 +768,14 @@ html {
 }
 
 @media (max-width: 1000px) {
+  .header {
+    height: auto;
+  }
+  .banner {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+  }
   .section-1-heading {
     font-size: 5rem;
     line-height: 6rem;
@@ -835,6 +843,9 @@ html {
 }
 
 @media (max-width: 720px) {
+  html {
+    font-size: 45%;
+  }
   .section-1-heading {
     font-size: 4rem;
     line-height: 5.2rem;
